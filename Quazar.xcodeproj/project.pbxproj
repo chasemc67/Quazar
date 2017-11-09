@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4107F27F1FB4257D0093C61D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4107F27E1FB4257D0093C61D /* AppDelegate.swift */; };
+		4107F2811FB4257D0093C61D /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 4107F2801FB4257D0093C61D /* art.scnassets */; };
+		4107F2831FB4257D0093C61D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4107F2821FB4257D0093C61D /* ViewController.swift */; };
+		4107F2861FB4257D0093C61D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4107F2841FB4257D0093C61D /* Main.storyboard */; };
+		4107F2881FB4257D0093C61D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4107F2871FB4257D0093C61D /* Assets.xcassets */; };
+		4107F28B1FB4257D0093C61D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4107F2891FB4257D0093C61D /* LaunchScreen.storyboard */; };
+		4107F2961FB4257D0093C61D /* QuazarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4107F2951FB4257D0093C61D /* QuazarTests.swift */; };
+		4107F2A11FB4257D0093C61D /* QuazarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4107F2A01FB4257D0093C61D /* QuazarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4107F2921FB4257D0093C61D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4107F2731FB4257D0093C61D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4107F27A1FB4257D0093C61D;
+			remoteInfo = Quazar;
+		};
+		4107F29D1FB4257D0093C61D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4107F2731FB4257D0093C61D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4107F27A1FB4257D0093C61D;
+			remoteInfo = Quazar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4107F27B1FB4257D0093C61D /* Quazar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quazar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4107F27E1FB4257D0093C61D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4107F2801FB4257D0093C61D /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		4107F2821FB4257D0093C61D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4107F2851FB4257D0093C61D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4107F2871FB4257D0093C61D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4107F28A1FB4257D0093C61D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4107F28C1FB4257D0093C61D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4107F2911FB4257D0093C61D /* QuazarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuazarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4107F2951FB4257D0093C61D /* QuazarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuazarTests.swift; sourceTree = "<group>"; };
+		4107F2971FB4257D0093C61D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4107F29C1FB4257D0093C61D /* QuazarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuazarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4107F2A01FB4257D0093C61D /* QuazarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuazarUITests.swift; sourceTree = "<group>"; };
+		4107F2A21FB4257D0093C61D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4107F2781FB4257D0093C61D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4107F28E1FB4257D0093C61D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4107F2991FB4257D0093C61D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4107F2721FB4257D0093C61D = {
+			isa = PBXGroup;
+			children = (
+				4107F27D1FB4257D0093C61D /* Quazar */,
+				4107F2941FB4257D0093C61D /* QuazarTests */,
+				4107F29F1FB4257D0093C61D /* QuazarUITests */,
+				4107F27C1FB4257D0093C61D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4107F27C1FB4257D0093C61D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4107F27B1FB4257D0093C61D /* Quazar.app */,
+				4107F2911FB4257D0093C61D /* QuazarTests.xctest */,
+				4107F29C1FB4257D0093C61D /* QuazarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4107F27D1FB4257D0093C61D /* Quazar */ = {
+			isa = PBXGroup;
+			children = (
+				4107F27E1FB4257D0093C61D /* AppDelegate.swift */,
+				4107F2801FB4257D0093C61D /* art.scnassets */,
+				4107F2821FB4257D0093C61D /* ViewController.swift */,
+				4107F2841FB4257D0093C61D /* Main.storyboard */,
+				4107F2871FB4257D0093C61D /* Assets.xcassets */,
+				4107F2891FB4257D0093C61D /* LaunchScreen.storyboard */,
+				4107F28C1FB4257D0093C61D /* Info.plist */,
+			);
+			path = Quazar;
+			sourceTree = "<group>";
+		};
+		4107F2941FB4257D0093C61D /* QuazarTests */ = {
+			isa = PBXGroup;
+			children = (
+				4107F2951FB4257D0093C61D /* QuazarTests.swift */,
+				4107F2971FB4257D0093C61D /* Info.plist */,
+			);
+			path = QuazarTests;
+			sourceTree = "<group>";
+		};
+		4107F29F1FB4257D0093C61D /* QuazarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4107F2A01FB4257D0093C61D /* QuazarUITests.swift */,
+				4107F2A21FB4257D0093C61D /* Info.plist */,
+			);
+			path = QuazarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4107F27A1FB4257D0093C61D /* Quazar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4107F2A51FB4257D0093C61D /* Build configuration list for PBXNativeTarget "Quazar" */;
+			buildPhases = (
+				4107F2771FB4257D0093C61D /* Sources */,
+				4107F2781FB4257D0093C61D /* Frameworks */,
+				4107F2791FB4257D0093C61D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quazar;
+			productName = Quazar;
+			productReference = 4107F27B1FB4257D0093C61D /* Quazar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4107F2901FB4257D0093C61D /* QuazarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4107F2A81FB4257D0093C61D /* Build configuration list for PBXNativeTarget "QuazarTests" */;
+			buildPhases = (
+				4107F28D1FB4257D0093C61D /* Sources */,
+				4107F28E1FB4257D0093C61D /* Frameworks */,
+				4107F28F1FB4257D0093C61D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4107F2931FB4257D0093C61D /* PBXTargetDependency */,
+			);
+			name = QuazarTests;
+			productName = QuazarTests;
+			productReference = 4107F2911FB4257D0093C61D /* QuazarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4107F29B1FB4257D0093C61D /* QuazarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4107F2AB1FB4257D0093C61D /* Build configuration list for PBXNativeTarget "QuazarUITests" */;
+			buildPhases = (
+				4107F2981FB4257D0093C61D /* Sources */,
+				4107F2991FB4257D0093C61D /* Frameworks */,
+				4107F29A1FB4257D0093C61D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4107F29E1FB4257D0093C61D /* PBXTargetDependency */,
+			);
+			name = QuazarUITests;
+			productName = QuazarUITests;
+			productReference = 4107F29C1FB4257D0093C61D /* QuazarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4107F2731FB4257D0093C61D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Chase McCarty";
+				TargetAttributes = {
+					4107F27A1FB4257D0093C61D = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					4107F2901FB4257D0093C61D = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4107F27A1FB4257D0093C61D;
+					};
+					4107F29B1FB4257D0093C61D = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4107F27A1FB4257D0093C61D;
+					};
+				};
+			};
+			buildConfigurationList = 4107F2761FB4257D0093C61D /* Build configuration list for PBXProject "Quazar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4107F2721FB4257D0093C61D;
+			productRefGroup = 4107F27C1FB4257D0093C61D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4107F27A1FB4257D0093C61D /* Quazar */,
+				4107F2901FB4257D0093C61D /* QuazarTests */,
+				4107F29B1FB4257D0093C61D /* QuazarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4107F2791FB4257D0093C61D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4107F2811FB4257D0093C61D /* art.scnassets in Resources */,
+				4107F28B1FB4257D0093C61D /* LaunchScreen.storyboard in Resources */,
+				4107F2881FB4257D0093C61D /* Assets.xcassets in Resources */,
+				4107F2861FB4257D0093C61D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4107F28F1FB4257D0093C61D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4107F29A1FB4257D0093C61D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4107F2771FB4257D0093C61D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4107F2831FB4257D0093C61D /* ViewController.swift in Sources */,
+				4107F27F1FB4257D0093C61D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4107F28D1FB4257D0093C61D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4107F2961FB4257D0093C61D /* QuazarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4107F2981FB4257D0093C61D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4107F2A11FB4257D0093C61D /* QuazarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4107F2931FB4257D0093C61D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4107F27A1FB4257D0093C61D /* Quazar */;
+			targetProxy = 4107F2921FB4257D0093C61D /* PBXContainerItemProxy */;
+		};
+		4107F29E1FB4257D0093C61D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4107F27A1FB4257D0093C61D /* Quazar */;
+			targetProxy = 4107F29D1FB4257D0093C61D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4107F2841FB4257D0093C61D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4107F2851FB4257D0093C61D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4107F2891FB4257D0093C61D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4107F28A1FB4257D0093C61D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4107F2A31FB4257D0093C61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4107F2A41FB4257D0093C61D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4107F2A61FB4257D0093C61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZTPSVTM78;
+				INFOPLIST_FILE = Quazar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chase.Quazar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4107F2A71FB4257D0093C61D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZTPSVTM78;
+				INFOPLIST_FILE = Quazar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chase.Quazar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4107F2A91FB4257D0093C61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZTPSVTM78;
+				INFOPLIST_FILE = QuazarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chase.QuazarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quazar.app/Quazar";
+			};
+			name = Debug;
+		};
+		4107F2AA1FB4257D0093C61D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZTPSVTM78;
+				INFOPLIST_FILE = QuazarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chase.QuazarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quazar.app/Quazar";
+			};
+			name = Release;
+		};
+		4107F2AC1FB4257D0093C61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZTPSVTM78;
+				INFOPLIST_FILE = QuazarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chase.QuazarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Quazar;
+			};
+			name = Debug;
+		};
+		4107F2AD1FB4257D0093C61D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZTPSVTM78;
+				INFOPLIST_FILE = QuazarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chase.QuazarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Quazar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4107F2761FB4257D0093C61D /* Build configuration list for PBXProject "Quazar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4107F2A31FB4257D0093C61D /* Debug */,
+				4107F2A41FB4257D0093C61D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4107F2A51FB4257D0093C61D /* Build configuration list for PBXNativeTarget "Quazar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4107F2A61FB4257D0093C61D /* Debug */,
+				4107F2A71FB4257D0093C61D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4107F2A81FB4257D0093C61D /* Build configuration list for PBXNativeTarget "QuazarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4107F2A91FB4257D0093C61D /* Debug */,
+				4107F2AA1FB4257D0093C61D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4107F2AB1FB4257D0093C61D /* Build configuration list for PBXNativeTarget "QuazarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4107F2AC1FB4257D0093C61D /* Debug */,
+				4107F2AD1FB4257D0093C61D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4107F2731FB4257D0093C61D /* Project object */;
+}
