@@ -15,6 +15,7 @@
 		4107F28B1FB4257D0093C61D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4107F2891FB4257D0093C61D /* LaunchScreen.storyboard */; };
 		4107F2961FB4257D0093C61D /* QuazarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4107F2951FB4257D0093C61D /* QuazarTests.swift */; };
 		4107F2A11FB4257D0093C61D /* QuazarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4107F2A01FB4257D0093C61D /* QuazarUITests.swift */; };
+		4107F2AF1FB4264F0093C61D /* VideoPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4107F2AE1FB4264F0093C61D /* VideoPreviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4107F29C1FB4257D0093C61D /* QuazarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuazarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4107F2A01FB4257D0093C61D /* QuazarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuazarUITests.swift; sourceTree = "<group>"; };
 		4107F2A21FB4257D0093C61D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4107F2AE1FB4264F0093C61D /* VideoPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPreviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				4107F2871FB4257D0093C61D /* Assets.xcassets */,
 				4107F2891FB4257D0093C61D /* LaunchScreen.storyboard */,
 				4107F28C1FB4257D0093C61D /* Info.plist */,
+				4107F2AE1FB4264F0093C61D /* VideoPreviewView.swift */,
 			);
 			path = Quazar;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4107F2AF1FB4264F0093C61D /* VideoPreviewView.swift in Sources */,
 				4107F2831FB4257D0093C61D /* ViewController.swift in Sources */,
 				4107F27F1FB4257D0093C61D /* AppDelegate.swift in Sources */,
 			);
